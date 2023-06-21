@@ -1,0 +1,42 @@
+{
+  "name": "com.endava.uxmlbindinggenerator",
+  "description": "Creates Binding code files from VisualTreeAssets (*.uxmls), depending on settings within project settings.",
+  "version": "1.0.0",
+  "unity": "2020.1",
+  "author": {
+    "name": "Endava"
+  },
+  "keywords": [
+    "unity",
+    "ui toolkit"
+  ],
+  "samples": [
+    {
+      "displayName": "Simple Binding",
+      "description": "Demonstrates a simple uxml, which you can create a binding with. No collisions - just pure 1:1 binding file creation.",
+      "path": "Samples~/Simple"
+    },
+    {
+      "displayName": "Binding with skipped entries",
+      "description": "Shows a uxml having collided/duplicated or unnamed entries, which are ignored by the binding generator.",
+      "path": "Samples~/SkippedEntries"
+    },
+    {
+      "displayName": "Ignored Uxmls",
+      "description": "Add this folder to your uxml binding settings \"ignore list\" to exclude it from the generation.",
+      "path": "Samples~/IgnoredFolder"
+    },
+    {
+      "displayName": "Template Binding",
+      "description": "Demonstrates a binding of a uxml template instance, which is interpretated as VisualElement.",
+      "path": "Samples~/TemplateInBinding"
+    },
+    {
+      "displayName": "Base Window",
+      "description": "Demonstrates a How-To for include the binded ",
+      "path": "Samples~/BaseWindow"
+    }
+  ],
+  "displayName": "Uxml Binding Generator",
+  "license": "LICENSE"
+}
