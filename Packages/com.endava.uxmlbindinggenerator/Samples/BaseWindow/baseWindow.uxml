@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="window" style="min-width: 100px; min-height: 100px;">
+        <ui:VisualElement name="frame" picking-mode="Ignore" style="position: absolute; flex-grow: 1; width: 100%; height: 100%; border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; background-color: rgba(156, 156, 156, 0.5);" />
+        <ui:VisualElement name="contentContainer" picking-mode="Ignore" style="position: absolute; width: 100%; height: 100%;" />
+        <ui:VisualElement name="buttonAnchor" picking-mode="Ignore" style="align-items: flex-end; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px;">
+            <ui:Button text="X" display-tooltip-when-elided="true" name="closeBtn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

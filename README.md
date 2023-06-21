@@ -1,2 +1,9 @@
-# unity-uitoolkit-bindinggenerator
-This project includes a package which simplifies ui toolkit visual asset tree querying and avoid possible inconsistencies between UXML and code
+UI Toolkit Binding Generator
+======================
+
+This is the "main development project", which allows you to contribute and test the Unity package.
+
+**This "main repository" will not work within the Unity Package manager and you need to follow the guidance below to include the "correct" package.**
+
+See the package readme for further details
+[Package Readme](./Packages/com.endava.uxmlbindinggenerator/README.md)
