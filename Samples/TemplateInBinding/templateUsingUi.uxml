@@ -1,5 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:Template name="templateUi" src="project://database/Assets/Samples/TemplateInBinding/templateUi.uxml?fileID=9197481963319205126&amp;guid=d9d5745958db70c4480693729f259294&amp;type=3#templateUi" />
+    <ui:Template name="templateUi" src="project://database/Assets/Samples/TemplateInBinding/templateUi.uxml?fileID=9197481963319205126&amp;guid=7d461dc7adcefe4499c69810b15990fe&amp;type=3#templateUi" />
     <ui:Instance template="templateUi" name="entry1" />
     <ui:Instance template="templateUi" name="entry2" />
     <ui:Instance template="templateUi" name="entry3" />
